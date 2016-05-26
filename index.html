@@ -2,86 +2,115 @@
 <html>
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<style>
-img{padding:0;margin:0;}
-ul{list-style:none;}
-ul li{float: left;margin-left:20px;padding-top:2px;padding-bottom:2px;cursor:pointer;}
-</style>
-<title>భావాతీత  ధ్యానం</title>
+<title>Untitled Document</title>
+	<!-- jQuery-->
+	<script src="js/jquery.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="js/bootstrap.min.js"></script>
+   
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link href="css/styles.css" rel="stylesheet">
 </head>
-<body>
-<div class="container-fluid">
-  <div class="container">
-  	<div class="row" style="height:20px">
-      <div class="col-lg-4"></div>
-      <div class="col-lg-4"></div>
-      <div class="col-lg-4"></div>
-    </div>
-        <div class="row">
-      <div class="col-lg-4"><img src="images/logo.png" width="100%" height="100%" alt=""/></div>
-      <div class="col-lg-4"></div>
-      <div class="col-lg-4"></div>
-    </div>
-   <div class="container" style="margin-top:2px;" >
-  	<div class="row" style="height:auto;background:#F3F3F3;">
-      <div class="col-lg-5">
-      <ul>
-      	<li id="home">Home</li>
-        <li id="about">About</li>
-        <li id="gallery">Gallery</li>
-      
-        <li id="contact">Contact Us</li>
-      </ul>
-      </div>
-      <div class="col-lg-3"></div>
-      <div class="col-lg-3"></div>
-</div>
-  </div>
-  
-  <div class="container" style="margin-top:5px;">
-  <div id="randomLoadContent">
-  		<div id="home1" style="background:#C4A2F3;height:500px;"></div>
-        <script>
-        $("#home1").animate({"background":"#ccc"},5000);
-        </script>
-  </div>
-  </div>
-  
-  
-  
-</div>
-</div>
-<script>
 
-     $(document).ready(function(){
-                                 $("#contact").click(function(){
-                                     $.get("pages/contactus.txt",function(resp){
-                                         $("#randomLoadContent").html(resp);
-                                     });
-                                 });
-								 
-								 $("#home").click(function(){
-                                     $.get("pages/home.txt",function(resp){
-                                         $("#randomLoadContent").html(resp);
-                                     });
-                                 });
-								  $("#gallery").click(function(){
-                                     $.get("pages/gallery.txt",function(resp){
-                                         $("#randomLoadContent").html(resp);
-                                     });
-                                 });
-								 $("#about").click(function(){
-                                     $.get("pages/about1.txt",function(resp){
-                                         $("#randomLoadContent").html(resp);
-                                     });
-                                 });
-								 
-								 
-                                });
-</script>
+<body data-spy="scroll" data-target="#links">
+	
+	<div class="nav navbar-fixed-top" style="background:#000;">
+    
+    		<div class="container" id="links">
+            	<img src="imgs/logo.png" width="452" height="64" class="pull-left" alt="">
+            	<ul class="nav navbar-nav navbar-right">  
+                  <li><a href="#home">Home</a></li>
+          		  <li><a href="#about">About Maharishi</a></li>
+            	  <li><a href="#gallary">Gallary</a></li>
+            	  <li><a href="#references">References</a></li>
+            	  <li><a href="#contact">CONTACT US</a></li>
+                </ul>
+            	
+            </div>
+    
+    
+    </div>
+
+	<img alt="aa" id="leftImg" src="imgs/flowerFrameMMY.png">
+    
+ 
+    <div id="home" style="height:auto;;margin-top:100px;" class="container">
+    
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+    <li data-target="#myCarousel" data-slide-to="5"></li>
+    <li data-target="#myCarousel" data-slide-to="6"></li>
+    <li data-target="#myCarousel" data-slide-to="7"></li>
+    <li data-target="#myCarousel" data-slide-to="8"></li>
+    <li data-target="#myCarousel" data-slide-to="9"></li>
+    <li data-target="#myCarousel" data-slide-to="10"></li>
+    <li data-target="#myCarousel" data-slide-to="11"></li>
+    
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="imgs/w1.png" alt="">
+    </div>
+
+    <div class="item">
+      <img src="imgs/w2.png" alt="">
+    </div>
+
+    <div class="item">
+      <img src="imgs/w3.png" alt="">
+    </div>
+
+    <div class="item">
+      <img src="imgs/w4.jpg" alt="">
+    </div>
+     <div class="item ">
+      <img src="imgs/w5.jpg" alt="">
+    </div>
+     <div class="item ">
+      <img src="imgs/w6.jpg" alt="">
+    </div>
+     <div class="item ">
+      <img src="imgs/w7.jpg" alt="">
+    </div>
+     <div class="item">
+      <img src="imgs/w8.jpg" alt="">
+    </div>
+     <div class="item">
+      <img src="imgs/w9.jpg" alt="">
+    </div>
+     <div class="item">
+      <img src="imgs/w10.jpg" alt="">
+     </div>
+      <div class="item">
+      <img src="imgs/w11.jpg" alt="">
+    </div>
+  </div>
+  </div>
+  
+    </div>	
+    <div id="about" style="height:500px;" class="container">
+    <div>
+    	<ul>
+        	<li>About Transendental Meditation</li>
+            <li>About Maharishi Mahesh Yogi</li>
+        </ul>
+    </div>
+    		<iframe width="500" height="350" src="http://www.youtube.com/embed/RK1kbJiisLk"></iframe>
+    </div>	
+    <div id="gallary" style="height:500px;background:;" class="container">gallary</div>	
+    <div id="references" style="height:500px;background:;" class="container">technologies</div>	
+    <div id="contact" style="height:500px;background:;" class="container">contact</div>
+    
+    
+     <script src="js/script.js"></script>
+     
 </body>
 </html>

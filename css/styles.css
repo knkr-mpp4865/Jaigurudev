@@ -1,0 +1,53 @@
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+   body{background-image:url(../imgs/bgCover.png), url(../imgs/bg.png);background-repeat:repeat, repeat;}
+   .item img{width:100%}
+   a{color:#fff;}
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#leftImg{position:absolute;top:150px;right:20px;}
+#about{margin-top:100px}
+#about iframe{float:right;}
+#about div{float:left;color:#fff; }
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+   
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
